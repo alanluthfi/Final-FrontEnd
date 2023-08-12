@@ -1,0 +1,31 @@
+.comment-section {
+    margin-top: 20px;
+  }
+  
+  .comment-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment-section li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .comment-section p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .comment-section p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
