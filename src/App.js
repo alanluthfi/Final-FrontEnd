@@ -12,7 +12,7 @@ function App() {
     const fetchThumbnails = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:3069/thumb/getThumb"
+          "https://final-backend-production-a6a4.up.railway.app/thumb/getThumb"
         );
         setThumbnailData(response.data);
       } catch (error) {
