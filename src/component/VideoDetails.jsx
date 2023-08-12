@@ -15,7 +15,7 @@ const VideoDetails = () => {
   const fetchComments = async () => {
     try {
       const response = await axios.get(
-        `https://final-backend-production-a6a4.up.railway.app/comments/${videoID}`
+        `https://final-back-end.vercel.app/comments/${videoID}`
       );
       console.log("API Response for comment data:", response.data);
       setComments(response.data);
@@ -28,7 +28,7 @@ const VideoDetails = () => {
     const fetchVideoData = async () => {
       try {
         const response = await axios.get(
-          `https://final-backend-production-a6a4.up.railway.app/product/${videoID}`
+          `https://final-back-end.vercel.app/product/${videoID}`
         );
         console.log("API Response for video data:", response.data);
         const [product] = response.data;
@@ -52,7 +52,7 @@ const VideoDetails = () => {
 
     try {
       const response = await axios.post(
-        `https://final-backend-production-a6a4.up.railway.app/comments/create`,
+        `https://final-back-end.vercel.app/comments/create`,
         {
           userName,
           comment: userComment,
