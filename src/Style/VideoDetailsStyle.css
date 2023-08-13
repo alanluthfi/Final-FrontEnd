@@ -70,4 +70,9 @@
   .comment-form button:hover {
     background-color: #0056b3;
   }
+
+  .HomeFont{
+    font-weight: bold;
+    font-size: large;
+  }
   

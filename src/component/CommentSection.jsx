@@ -10,6 +10,7 @@ const CommentSection = ({ comments }) => {
           <li key={comment._id}>
             <p>{comment.userName}</p>
             <p>{comment.comment}</p>
+            <p>created at {new Date(comment.createdAt).toLocaleString()}</p>
           </li>
         ))}
       </ul>

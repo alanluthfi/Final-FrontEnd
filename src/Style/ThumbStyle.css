@@ -31,14 +31,9 @@
     border: none;
   }
   
-  .thumbnail-card img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
-  }
-  
-  .thumbnail-card h3 {
-    font-size: 16px;
-    margin-top: 8px;
+  .DetailCard{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px
   }
   

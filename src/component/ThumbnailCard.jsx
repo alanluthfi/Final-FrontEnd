@@ -16,7 +16,9 @@ const ThumbnailCard = ({ thumbnailData }) => {
       ></iframe>
       <Link to={`/details/${thumbnailData.videoID}`}>
         <br></br>
-        <img src={thumbnailData.UrlThumb} alt="Details Product" />
+        <div className="DetailCard">
+          <p>Product Details </p>
+        </div>
       </Link>
     </div>
   );

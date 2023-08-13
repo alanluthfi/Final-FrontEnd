@@ -85,7 +85,9 @@ const VideoDetails = () => {
 
       {productData.title !== undefined && productData.title !== "" && (
         <div className="product-info">
-          <Link to={`/`}>Home</Link>
+          <Link to={`/`}>
+            <p className="HomeFont">Home</p>
+          </Link>
           <h2>{productData.title}</h2>
           <p>Price: Rp. {productData.price}</p>
           <Link to={productData.productLink}>
